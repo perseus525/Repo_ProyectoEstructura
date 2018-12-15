@@ -77,7 +77,7 @@ public class Generator {
                 }else{
                     hour = t + ":00";
                 }
-                fecha = day.toString() + "\t" +  hour;
+                fecha = day.toString() + " " +  hour;
                 if(day.getMonthValue()<7){
                     cantContaminacion = (int) (randBetween(0,20)*day.getMonthValue());
                 }else{

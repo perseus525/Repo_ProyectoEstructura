@@ -9,7 +9,7 @@ import java.util.Date;
 
 public class DAOModel {
     public ArrayList<BubbleDataModel> loadData(String archivo) throws ParseException{
-        FileHandler f = new FileHandler("C:\\Users\\tonio\\Documents\\GitHub\\StrucData_personal\\ModeloMVC\\");
+        FileHandler f = new FileHandler("C:\\Users\\tonio\\Documents\\GitHub\\Repo_ProyectoEstructura\\ModeloMVC\\");
         System.out.println(System.getProperty("user.dir"));
         ArrayList<BubbleDataModel> bubble = new ArrayList<>();
         ArrayList<String> datos = f.lectura(archivo);
@@ -26,9 +26,9 @@ public class DAOModel {
         for (String lectura : datos) {
             DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd hh:mm");
             String[] split = lectura.split(";");
-            fecha_string = split[1];
-            mp_string = split[2];
-            hosp_string = split[3];
+            fecha_string = split[0];
+            mp_string = split[1];
+            hosp_string = split[2];
             
             fecha = formatter.parse(fecha_string);
             mp = Integer.parseInt(mp_string);
