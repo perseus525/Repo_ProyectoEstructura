@@ -31,7 +31,7 @@ public class NewMain {
         for (String arrayData1 : arrayData) {
             salida += arrayData1;
         }
-        f.escritura(salida, "aers.csv");
+        f.escritura(salida, "data.csv");
         //System.out.println(datos);
     }
 

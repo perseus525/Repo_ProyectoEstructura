@@ -83,7 +83,7 @@ public class Generator {
                 }else{
                     cantContaminacion = (int) (randBetween(0,20)*(13-day.getMonthValue()));
                 }
-                cantHospitalizados_hour = randBetween((int)(cantHospitalizados_year/(365*24) + cantContaminacion/randBetween(15,7)) - randBetween(0,12),(int)((cantHospitalizados_year/(365*24) + (cantContaminacion)/randBetween(2,6))) - randBetween(0,12));
+                cantHospitalizados_hour = (int)randBetween((int)(cantHospitalizados_year/(365*24) + cantContaminacion/randBetween(15,7)) - randBetween(0,12),(int)((cantHospitalizados_year/(365*24) + (cantContaminacion)/randBetween(2,6))) - randBetween(0,12))/24;
                 contaminacion = Integer.toString(cantContaminacion);
                 hospitalizados = Integer.toString(cantHospitalizados_hour);
                 data = fecha + ";" + contaminacion + ";"  + hospitalizados;
