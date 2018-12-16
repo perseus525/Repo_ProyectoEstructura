@@ -4,7 +4,11 @@
 # Asignatura: 
 Estructuras de Datos
 
-# Nombre:
+# Nombres:
+Antonio Ayres
+Marcelo Bustos
+Christian Herrera
+
 
 # Problema a Resolver:
 El objetivo de este proyecto fue exponer el impacto de la contaminación en la salud de los habitantes, específicamente, cómo aumenta la cantidad de atenciones por problemas respiratorios al aumentar la cantidad de contaminantes en el aire. Dicha relación se expone a través de un gráfico de burbujas. 
