@@ -5,8 +5,8 @@
 Estructuras de Datos
 
 # Nombres:
-Antonio Ayres
-Marcelo Bustos
+Antonio Ayres, 
+Marcelo Bustos, 
 Christian Herrera
 
 
